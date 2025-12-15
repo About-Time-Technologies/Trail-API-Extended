@@ -41,10 +41,8 @@ pip install -r requirements.txt
 
 ### Delete
 
-- Example 
-
   ```cmd
-  python trail-api-extended.py delete -target sample.csv -reason redundant -description "Removed from FOH"
+  python trail-api-extended.py delete -target sample.csv --reason redundant --description "Removed from FOH"
   ```
 
 #### Command Line Switches
