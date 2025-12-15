@@ -5,7 +5,7 @@ from logging_config import setup_logging
 import logging
 
 """
-Automated utility created for the ROH to bulk add assets to a Trial reservation.
+Automated utility created to allow the bulk modification of assets in a Trail database.
 
 Created by Sam Lane
 """
