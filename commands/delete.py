@@ -6,7 +6,16 @@ from trail import Trail
 logger = logging.getLogger(__name__)
 
 DELETE_REASONS = [
+    "broken",
+    "lost",
+    "other",
     "redundant",
+    "renewed",
+    "sold",
+    "wrong",
+    "stolen",
+    "recycled",
+    "scrapped",
 ]
 
 def handle(args):
