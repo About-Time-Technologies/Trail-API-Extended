@@ -39,6 +39,24 @@ pip install -r requirements.txt
 - all commands make use of `-target` to define the asset id (or CSV file containing asset ids)
 - add `-h` to a command to access the help
 
+### Change Department
+
+Change the department of one or more assets.
+
+```cmd
+python trail-api-extended.py change-department -target sample.csv --department "Warehouse"
+```
+
+Or for a single asset:
+
+```cmd
+python trail-api-extended.py change-department -target I100115 --department "Sound Department"
+```
+
+#### Command Line Switches
+
+- `--department` (Required) Target department name. Always enclose in "" if the department name contains spaces.
+
 ### Delete
 
   ```cmd
